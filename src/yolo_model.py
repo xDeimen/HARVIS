@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 
 if __name__ == "__main__":
-    model = YOLO("yolov8s.pt")
+    model = YOLO("yolo11n.pt")
 
     # Train model
     model.train(data="CarEngineBayDataset/data.yaml", epochs=50, imgsz=640, batch=16)
