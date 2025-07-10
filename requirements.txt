@@ -1,0 +1,7 @@
+transformers
+onnxruntime
+numpy
+opencv-python
+matplotlib
+ultralytics
+huggingface_hub
